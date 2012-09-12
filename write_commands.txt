@@ -1,0 +1,2 @@
+sudo avrdude -c usbtiny -p t85 -u -U flash:w:avrfid.hex (flash code)
+sudo avrdude -c usbtiny -p t85 -U lfuse:w:0xc0:m (set external clock, no divider)
